@@ -1,9 +1,17 @@
-import React from 'react'
+import { NextPage } from "next";
+import styled from "styled-components";
 
-const index = () => {
+const Container = styled.div`
+  padding: 20px;
+`;
+
+const index: NextPage = () => {
   return (
-    <div>index</div>
-  )
-}
+    <Container>
+      <h1>hello</h1>
+      <h2>hello</h2>
+    </Container>
+  );
+};
 
-export default index
+export default index;
